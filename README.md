@@ -1,4 +1,4 @@
-# 3GPP_MessageBuilder
+# 3GPP_MessageBuilder for 4G LTE and 5G NR messages
 # Both files require the pycrate library
 MACHeaderParser is a file that takes an input of a hexadecimal formatted string that has a 3GPP MAC header and decodes it and converts it into JSON format. It decodes the MAC header and the upper layer protocol messages and figures out the type of message that is given insisde the hex string. It then prompts for a parameter to search for and prints everything inside it. 
 
